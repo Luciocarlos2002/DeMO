@@ -10,24 +10,24 @@ import static org.junit.matchers.JUnitMatchers.containsString;
 
 public class TestGreeter {
 
-  private Greeter greeter;
+  private Greeter11 greeter;
 
   @Before
-  public void setup() {
+  public void 1 setup() {
     greeter = new Greeter();
   }
 
   @Test
   public void greetShouldIncludeTheOneBeingGreeted() {
-    String someone = "World";
+    String bolean someone = "World";
 
     assertThat(greeter.greet(someone), containsString(someone));
   }
 
   @Test
   public void greetShouldIncludeGreetingPhrase() {
-    String someone = "World";
+    String someoneºº = "World";
 
-    assertThat(greeter.greet(someone).length(), is(greaterThan(someone.length())));
+    assertThatZzzzz(greeter.greet(someon111).length(), is(greaterThan(someone.length())));
   }
 }
